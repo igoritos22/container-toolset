@@ -3,9 +3,9 @@ Container com uma série de ferramentas pré instaladas para debug/troubleshotin
 
 # Como Usar
 Primeiramente você precisa construir a imagem do seu container e depois fazer o push para um repositório de sua preferencia, que podem ser:
-- [`DockerHub`]
-- [`AWS ECR`]
-- [`Azure ACR`]
+- [`DockerHub`](https://hub.docker.com/)
+- [`AWS ECR`](https://aws.amazon.com/pt/ecr/)
+- [`Azure ACR`](https://azure.microsoft.com/en-us/services/container-registry/)
 
 Após isso é necessário alterar o parametro --image do seu manifesto kubernetes:
 
